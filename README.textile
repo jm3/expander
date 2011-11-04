@@ -1,5 +1,17 @@
-h1. expander - expand short URLs in strings
+h1. Expander - Expand short URLs in strings
 
 !http://f.cl.ly/items/2O1n2H401f2C213k0G1O/expander.jpg!
 
-* Short URLs are annoying. Expand them.
+h3. Short URLs are annoying. Expand them.
+
+pre. % gem install expander-0.0.1.gem
+Successfully installed expander-0.0.1
+1 gem installed
+% irb -rubygems
+ruby version: ruby 1.8.7 (2011-06-30 patchlevel 352) [i686-darwin10.8.0]
+001 > require 'expander'
+ => true 
+003 >   s = "some stuff http://t.co/xCCP4e8R more stuff #hello"
+ => "some stuff http://t.co/xCCP4e8R more stuff #hello" 
+004 > s.expand_urls
+ => "some stuff http://guides.rubygems.org/make-your-own-gem/ more stuff #hello"
