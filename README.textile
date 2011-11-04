@@ -10,7 +10,5 @@ Successfully installed expander-0.0.1
 % irb -rubygems
 > require 'expander'
  => true 
->   s = "some stuff http://t.co/xCCP4e8R more stuff #hello"
- => "some stuff http://t.co/xCCP4e8R more stuff #hello" 
-> s.expand_urls
- => "some stuff http://guides.rubygems.org/make-your-own-gem/ more stuff #hello"
+>   "Clever message http://t.co/xCCP4e8R more stuff #hello".expand_urls
+ => "Clever message http://guides.rubygems.org/make-your-own-gem/ more stuff #hello"
