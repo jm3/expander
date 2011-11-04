@@ -1,0 +1,5 @@
+h1. expander - expand short URLs in strings
+
+!http://f.cl.ly/items/2O1n2H401f2C213k0G1O/expander.jpg!
+
+* Short URLs are annoying. Expand them.
